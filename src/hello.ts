@@ -1,3 +1,6 @@
-const sayHi = () => 'Hello, World';
+export const sayHi = () => 'Hello world!';
 
-sayHi()
+
+function main() {
+  console.log(sayHi());
+}
