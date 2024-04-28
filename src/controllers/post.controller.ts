@@ -16,7 +16,7 @@ const createBlogPost = async (req: Request, res: Response) => {
   } catch (e) {
     res.status(500).json({ error: e });
   }
-}
+};
 
 const getBlogPosts = async (req: Request, res: Response) => {
   try {
