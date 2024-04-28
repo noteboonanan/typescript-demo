@@ -1,7 +1,7 @@
 import request from 'supertest';
 import app from 'app';
 
-jest.mock('client', () => ({
+jest.mock('../src/client', () => ({
   __esModule: true, // this property makes it work
   default: {
     $connect: jest.fn(),
